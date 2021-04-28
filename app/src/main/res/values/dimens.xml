@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="boder_radius">10dp</dimen>
+    <dimen name="border_radius_50">50dp</dimen>
+    <dimen name="_18dp">18sp</dimen>
+    <dimen name="_3dp">3dp</dimen>
+    <dimen name="second_activity_text_size">16sp</dimen>
+    <dimen name="padding_name_edittext">8dp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+</resources>

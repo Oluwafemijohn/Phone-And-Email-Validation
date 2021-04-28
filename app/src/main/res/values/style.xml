@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    The main activity container -->
+    <style name="main_activity_contaainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+<!--    The activity one to image-->
+    <style name="acitivity_1_image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/ic_sign_up_background</item>
+    </style>
+    <!--    The welcome message TextView-->
+    <style name="welcome_message">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:text">@string/welcome_message</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+<!--The container for EditText fields-->
+    <style name="edit_text_field_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">@drawable/view_pager_container_border</item>
+    </style>
+    <!--Name EditText-->
+    <style name="login_name">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">112dp</item>
+        <item name="android:background">@drawable/edit_text_border</item>
+        <item name="android:drawableLeft">@drawable/ic_baseline_person_outline_24</item>
+        <item name="android:drawablePadding">@dimen/padding_name_edittext</item>
+        <item name="android:hint">Full name</item>
+        <item name="android:inputType">text</item>
+        <item name="android:padding">15dp</item>
+    </style>
+<!--Email EditText field-->
+    <style name="email">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:background">@drawable/edit_text_border</item>
+        <item name="android:drawableLeft">@drawable/ic_email</item>
+        <item name="android:drawablePadding">@dimen/padding_name_edittext</item>
+        <item name="android:hint">Email</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:padding">15dp</item>
+    </style>
+<!--Phone number-->
+    <style name="phone_number">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:background">@drawable/edit_text_border</item>
+        <item name="android:drawableLeft">@drawable/ic_phone</item>
+        <item name="android:drawablePadding">@dimen/padding_name_edittext</item>
+        <item name="android:hint">Phone number</item>
+        <item name="android:inputType">number</item>
+        <item name="android:padding">15dp</item>
+    </style>
+    <!--The spinner container-->
+    <style name="spinner_container">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">25dp</item>
+    </style>
+    <!--The spinner for gener-->
+    <style name="gender_spinner">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:drawable/btn_dropdown</item>
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+<!--error message -->
+    <style name="error_message">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">Please select a valid gender</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:visibility">gone</item>
+    </style>
+<!--Register button-->
+    <style name="register_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="android:enabled">false</item>
+        <item name="android:text">Register</item>
+    </style>
+    <!--create an account in-->
+    <style name="create_acc">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">68dp</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:text">Create an account</item>
+    </style>
+
+
+<!--    SECOND ACTIVITY -->
+    <style name="second_activity_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/backround_second_screen</item>
+    </style>
+<!--Top background container-->
+    <style name="top_background_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">180dp</item>
+        <item name="android:background">@drawable/corner_top_backgrounds</item>
+    </style>
+<!--Decagon Logo-->
+    <style name="decagon_image">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/decagon</item>
+    </style>
+
+<!--    Details container-->
+    <style name="profile_container">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">342dp</item>
+        <item name="android:layout_marginTop">192dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+<!--texview for "here are your details"-->
+    <style name="pointer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:text">Here are your details</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+<!--Text view for name -->
+    <style name="getName">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">84dp</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:text">Hello 1</item>
+        <item name="android:textSize">@dimen/second_activity_text_size</item>
+    </style>
+<!--Text view for email-->
+    <style name="getEmail">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:text">Hello 2</item>
+        <item name="android:textSize">@dimen/second_activity_text_size</item>
+    </style>
+<!--Text view for phone number-->
+    <style name="getPhoneNumber">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:text">Hello 3</item>
+        <item name="android:textSize">@dimen/second_activity_text_size</item>
+    </style>
+
+    <style name="getGender">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:text">Hello 4</item>
+        <item name="android:textSize">@dimen/second_activity_text_size</item>
+    </style>
+
+
+    <style name="bottom_background">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">180dp</item>
+        <item name="android:background">@drawable/corner_bottom_background</item>
+    </style>
+</resources>
