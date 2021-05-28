@@ -30,11 +30,12 @@ class MainActivity : AppCompatActivity() {
         errorMessage = findViewById(R.id.error_Message)
         registerButton= findViewById(R.id.register_button)
 
-
         // Drop down adapter
         attachSpinner()
+
         // Start the second Activity
         startSecondActivity()
+
         //validating the phone numbers
         phoneNumberValidation()
     }

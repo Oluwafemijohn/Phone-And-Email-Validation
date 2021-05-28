@@ -14,8 +14,7 @@ class SecondActivity : AppCompatActivity() {
         //data collection
         collectData()
         //make opeation toast
-        val myToast = Toast.makeText(applicationContext,"Welcome to your dashboard", Toast.LENGTH_SHORT)
-        myToast.show()
+        Toast.makeText(this,"Welcome to your dashboard", Toast.LENGTH_SHORT).show()
     }
     //Recieve and asign the messages
     fun collectData(){
